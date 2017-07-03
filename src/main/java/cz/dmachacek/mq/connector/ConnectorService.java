@@ -53,7 +53,7 @@ public class ConnectorService  implements ConnectorInterface {
         MQEnvironment.password = "4XUCHci4";
 
         logger.info("=== Initializing connection to MQ");
-        logger.info("   Opening PRF connection for Queue Manager {} on {}:{}", channel, host, port);
+        logger.info("   Opening connection for Queue Manager {} on {}:{}", channel, host, port);
         
         try {
             logger.info("   Connecting to Queue Manager");

@@ -12,6 +12,7 @@ package cz.dmachacek.mq.rest;
 import cz.dmachacek.mq.config.AppConfig;
 import cz.dmachacek.mq.config.MvcConfig;
 import javax.servlet.ServletContext;
+/*
 import javax.servlet.ServletRegistration;
  
 import org.springframework.web.WebApplicationInitializer;
@@ -42,4 +43,4 @@ public class WebAppInitializer implements WebApplicationInitializer {
          
     }
  
- }
+ }*/

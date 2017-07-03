@@ -24,7 +24,7 @@ public class CWFMessageHandler extends MessageHandler {
         while (iterator.hasNext()) {
             Map.Entry entry = (Map.Entry) iterator.next();
             if (entry.getKey().toString().equals(msgType)) {
-                retValue = entry.getValue().toString().substring(posFrom, posTo).toString();
+                retValue = entry.getValue().toString().substring(posFrom, posTo);
             }
         }
         return retValue;
